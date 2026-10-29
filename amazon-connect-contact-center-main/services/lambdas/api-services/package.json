@@ -1,0 +1,16 @@
+{
+  "name": "api-services",
+  "version": "1.0.0",
+  "description": "Order and customer API services for Amazon Connect contact center",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "node tests/api-services.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.996.0",
+    "@aws-sdk/lib-dynamodb": "^3.996.0"
+  }
+}

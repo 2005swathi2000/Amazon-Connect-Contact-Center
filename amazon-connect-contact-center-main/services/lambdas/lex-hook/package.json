@@ -1,0 +1,15 @@
+{
+  "name": "lex-hook",
+  "version": "1.0.0",
+  "description": "Lex fulfillment Lambda for Amazon Connect contact center",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "node tests/lex-hook.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.5"
+  }
+}
